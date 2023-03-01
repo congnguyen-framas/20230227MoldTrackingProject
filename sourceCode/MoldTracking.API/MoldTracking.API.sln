@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33214.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoldTracking.API", "MoldTracking.API\MoldTracking.API.csproj", "{DCA26F3E-567E-4437-A5E0-D0C5EDDBF0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoldTracking.InterfacesModels", "MoldTracking.InterfacesModels\MoldTracking.InterfacesModels.csproj", "{055AEEF1-1004-46C4-8788-8C8E6A09A24F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoldTracking.UIASM", "MoldTracking.UIASM\MoldTracking.UIASM.csproj", "{D23042BA-B724-429A-81B9-F49DBB0C7D51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCA26F3E-567E-4437-A5E0-D0C5EDDBF0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA26F3E-567E-4437-A5E0-D0C5EDDBF0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA26F3E-567E-4437-A5E0-D0C5EDDBF0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA26F3E-567E-4437-A5E0-D0C5EDDBF0E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055AEEF1-1004-46C4-8788-8C8E6A09A24F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055AEEF1-1004-46C4-8788-8C8E6A09A24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055AEEF1-1004-46C4-8788-8C8E6A09A24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055AEEF1-1004-46C4-8788-8C8E6A09A24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23042BA-B724-429A-81B9-F49DBB0C7D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23042BA-B724-429A-81B9-F49DBB0C7D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23042BA-B724-429A-81B9-F49DBB0C7D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23042BA-B724-429A-81B9-F49DBB0C7D51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC1CABD6-45C3-46D5-8985-37203AA22D05}
+	EndGlobalSection
+EndGlobal
