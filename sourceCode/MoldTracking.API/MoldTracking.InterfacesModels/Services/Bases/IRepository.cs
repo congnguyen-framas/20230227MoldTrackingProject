@@ -16,9 +16,9 @@ namespace MoldTracking.InterfacesModels
         Task<Result<List<T>>> GetAll();
 
         [Post(ApiRoutes.Insert)]
-        Task<Result<int>> Insert([Body] T model);
+        Task<Result<string>> Insert([Body] T model);
 
         [Put(ApiRoutes.Update)]
-        Task<Result<int>> Update([Body] T model);
+        Task<Result<string>> Update([Body] T model);
     }
 }

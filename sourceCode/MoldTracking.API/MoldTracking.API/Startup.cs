@@ -27,6 +27,13 @@ namespace MoldTracking.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region Get config
+            //DB chính DOGE_WH
+            GlobalVariable.DogeWhConnection = EncodeMD5.DecryptString(Configuration["ConnectionStrings:DefaultConnection"], GlobalVariable.Secret);
+            GlobalVariable.HydraConnection = EncodeMD5.DecryptString(Configuration["ConnectionStrings:HydraConnection"], GlobalVariable.Secret);
+            GlobalVariable.RecycleConnection = EncodeMD5.DecryptString(Configuration["ConnectionStrings:RecycleConnection"], GlobalVariable.Secret);
+            #endregion
+
             services.AddCors();
 
             //add cac services vao

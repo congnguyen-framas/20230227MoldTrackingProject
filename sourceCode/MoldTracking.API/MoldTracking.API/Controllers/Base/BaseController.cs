@@ -33,13 +33,13 @@ namespace MoldTracking.API
         }
 
         [HttpPost(ApiRoutes.Insert)]
-        public Task<Result<int>> Insert([Body] T model)
+        public Task<Result<string>> Insert([Body] T model)
         {
             return _baseRepo.Insert(model);
         }
 
         [HttpPut(ApiRoutes.Update)]
-        public Task<Result<int>> Update([Body] T model)
+        public Task<Result<string>> Update([Body] T model)
         {
             return _baseRepo.Update(model);
         }
